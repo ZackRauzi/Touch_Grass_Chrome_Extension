@@ -1,0 +1,28 @@
+Ideas:
+
+Timer to suggest you take a break
+
+MDN time tracker?
+touch grass!!!!!
+reccomend stretches or link video / picture of stretch / break reccomendations
+cat pops up to tell you to take a break
+feed the cat?
+
+Basic Functionality:
+//recogonize that you are on mdn
+//while mdn is open, start timer
+//recognize any mdn tab using recognize on the manifest.json
+???main.js will track time that any mdn has been open
+???persistent time so timer is not reset if mdn has been closed
+once a certain amount of time has been reached, have pop up on screen with two options:
+    - "Take Break": would take user to a youtube video
+    - "Reset Time and Keep Coding": would start timer over again
+give user the option to choose time limit in settings
+
+
+
+Stretch Ideas:
+snooze option for dedicated programmers
+cat person / dog person setting
+sound or music plays when timer is up
+visual timer

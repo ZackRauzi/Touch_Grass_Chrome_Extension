@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Touch Grass",
+    "version": "1.0",
+    "description": "Helps programmers touch grass after hours spent in MDN rabbit hole",
+    "content_scripts": [
+        {
+            "matches": ["https://developer.mozilla.org/*"],
+            "js": ["./main.js"]
+        }
+    ],
+    "icons": {
+        "128": "grass128.png",
+        "48": "grass48.png",
+        "16": "grass16.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }    
+}
